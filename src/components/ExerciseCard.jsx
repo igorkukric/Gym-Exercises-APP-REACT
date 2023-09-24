@@ -29,7 +29,7 @@ const ExerciseCard = ({ exercise }) => {
             textTransform: "capitalize",
           }}
         >
-          {exercise.targetMuscle}
+          {exercise.target}
         </Button>
       </Stack>
       <Typography
