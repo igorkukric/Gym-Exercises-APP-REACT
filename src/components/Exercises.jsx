@@ -40,7 +40,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       }
       setExercises(exercisesData)
     };
-    //fetchExercisesData()
+    fetchExercisesData()
   }, [bodyPart]);
 
   return (
